@@ -1,15 +1,32 @@
 body{
-    font-family: Arial;
-    text-align:center;
-    margin-top:100px;
-    background:#f2f2f2;
+ font-family: Arial;
+    text-align: center;
+    margin-top: 100px;
+    background: #1e293b;      /* sfondo blu scuro */
+    color: white;             /* testo bianco */
 }
 
 button{
-    padding:15px;
-    font-size:18px;
+     padding: 15px 25px;
+    font-size: 18px;
+    background: #3b82f6;      /* pulsante blu */
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover{
+    transform: scale(1.05);
 }
 
 pre{
-    margin-top:20px;
+        margin-top: 20px;
+    background: white;
+    color: black;
+    padding: 15px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
 }
