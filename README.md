@@ -10,7 +10,6 @@ https://github.com/GiuseppeDelPrete/docker-git-webapp
 Ho modificato la grafica della GUI entrando nei file nella cartella gui, in particolare su style.css ma anche su index.html.
 Ho cambiato il colore principale della pagina e lo stile del pulsante, facendo diventare l’interfaccia più moderna.
 Le modifiche sono state subito visibili nel browser grazie al volume Docker, senza dover ricostruire il container.
-Se non ci fossero stati i volumi avrei dovuto rifare docker compose build
 ```
 ##Screenshot
 
