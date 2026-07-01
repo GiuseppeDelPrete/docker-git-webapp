@@ -1,7 +1,7 @@
 async function test() {
 
     const response = await fetch(
-        '/api'
+        'http://localhost:5000/api'
     );
 
     const data = await response.json();
